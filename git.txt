@@ -1,0 +1,65 @@
+1.Run git as admin
+2. git clone and git url
+3. Enter subway user (pandey_so)
+4. Enter access token ( htjsja3tgnaimqz6xparemsfpd4ywqctt34d4ygxej6cgxwgoplq)
+
+5.You will be able to login
+
+Software/ Source Code management
+Git-
+helps in managing version   - Version Control Sysytem
+(we use distributed version control- every machine will have local repository)
+
+Trunk based development- 
+branch -master - after same changes we are doing (commit) -4.7 version 
+-5.0 version(we can create another branch -newBranch)we can merge(push) your changes to master branch
+
+Basic Git command-
+Version Control System for tracking changes in computer files
+Distributed Version control -many developer can work on simple project without being on same network
+Cordinates work between multiple developers
+who made what changes and when
+Revert back at any time
+local and Remote apps
+
+Concept of git
+Keeps track of code history
+Takes snapshots of your files
+you decide when to take a snapshot by making "commit":
+you can visit any snapshot at any time 
+You can stage any files before committing(add command)
+Once you commit to remote repo others Developer can pull that code
+BASIC COMMANDS
+$git init - Initailize Local Git Repository
+$git add <file> -to add files (see in your staging area- git status
+$git commit - Commit changes in Index(That will take everything from index n put in local rep)
+//to work with remote repo
+$git push -take everything from local repo and push it to remote repo
+$git pull -pull latest code from Remote Repository when we want latest version
+$git clone -Clone Repository into a new Directory
+
+
+touch app.html //to create new file
+git init
+git config --global user.name "Sonampandey11"
+git config --global user.email "sonam.pandey@capgemini.com"
+i // to write in vim command
+
+git commit -print `(Esc command toescape from vim editor command)
+:wq (for exit from the terminal)
+git commit -m " " //If we want to escape writing in Vim
+
+
+git merge developer // to merge all your changes with developr
+
+git remote -v // to seet the url you have added to the origin
+$ git remote remove origin // to remove origin url
+https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
+
+$ git push origin master
+Warning: Permanently added the RSA host key for IP address '140.82.118.3' to the list of known hosts.
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
