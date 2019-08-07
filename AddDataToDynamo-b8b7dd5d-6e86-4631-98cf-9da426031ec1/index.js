@@ -1,5 +1,5 @@
 const awsservice=require('./src/api/aws-service');
-//adding data to DynaomoDb table EmployeeDetails
+//adding data to DynaomoDb table EmployeeDetails and performing all the CRUD operation
 exports.handler = async (event) => {
     try{
     console.log("Value of event",event);
