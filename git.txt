@@ -1,7 +1,7 @@
 1.Run git as admin
 2. git clone and git url
-3. Enter subway user (pandey_so)
-4. Enter access token ( htjsja3tgnaimqz6xparemsfpd4ywqctt34d4ygxej6cgxwgoplq)
+3. Enter subway user (
+4. Enter access token (
 
 5.You will be able to login
 
