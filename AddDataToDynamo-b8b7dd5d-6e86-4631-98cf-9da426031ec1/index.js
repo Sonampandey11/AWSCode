@@ -3,6 +3,7 @@ const awsservice=require('./src/api/aws-service');
 exports.handler = async (event) => {
     try{
     console.log("Value of event",event);
+	
     let dataparams = {
         TableName :"EmployeeDetails",
         Item : {
@@ -19,8 +20,6 @@ exports.handler = async (event) => {
    
    
    //To fetch Data from Dynamodb
-   
-   
     let retrieveData ={
         TableName : "EmployeeDetails",
         Key :{
